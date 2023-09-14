@@ -91,5 +91,27 @@
       <artifactId>ecj</artifactId>
       <version>3.26.0</version>
     </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.easymock/easymock -->
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>5.2.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.unboundid/unboundid-ldapsdk -->
+    <dependency>
+      <groupId>com.unboundid</groupId>
+      <artifactId>unboundid-ldapsdk</artifactId>
+      <version>6.0.9</version>
+      <scope>test</scope>
+    </dependency>
+
+
   </dependencies>
 </project>
